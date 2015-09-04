@@ -51,3 +51,4 @@ If you want to use this Interceptor on just some methods, just insert "GuardNull
 
 }
 ```
+Make sure you read the CodeCop wiki page at https://bitbucket.org/codecop_team/codecop/wiki/Home to get started using this powerful method interception tool for .NET .
