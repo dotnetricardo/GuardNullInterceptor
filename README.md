@@ -1,5 +1,5 @@
 # GuardNullInterceptor 
-Interceptor for use with CodeCop (http://getcodecop.com) that validates if any non-optional method arguments are not null, or in case of strings also not empty.
+Interceptor for CodeCop (http://getcodecop.com) that validates if any non-optional method arguments are not null, or in case of strings also not empty.
 
 # Instructions
 To place this Interceptor on all intercepted methods, just insert "GuardNullInterceptor" in the GlobalInterceptors array of your copconfig.json file, like so:
