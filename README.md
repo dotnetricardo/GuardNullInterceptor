@@ -27,7 +27,7 @@ To place this Interceptor on all intercepted methods, just insert "GuardNullInte
 
 }
 ```
-If you want to use this Interceptor on just some methods, just insert "GuardNullInterceptor" in the Interceptors array of the methods you want on your copconfig.json file, like so:
+If you want to use this Interceptor on just some methods, just insert "GuardNullInterceptor" in the Interceptors array of the methods you want inside your copconfig.json file, like so:
 ```
 {
     "Types": [
