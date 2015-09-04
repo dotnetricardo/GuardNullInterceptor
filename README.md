@@ -1,7 +1,7 @@
 # GuardNullInterceptor 
 Keystrokes saver and boilerplate code killer, this is an Interceptor for CodeCop (http://getcodecop.com) that automatically validates if any non-optional method arguments are not null, or in case of strings also not empty.
 
-Throws ArgumentNullException with parameter name when nulls or are found.
+Throws ArgumentNullException with parameter name when nulls are found.
 
 # Instructions
 To place this Interceptor on all intercepted methods, just insert "GuardNullInterceptor" in the GlobalInterceptors array of your copconfig.json file, like so:
