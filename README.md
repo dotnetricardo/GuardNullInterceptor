@@ -29,7 +29,7 @@ To place this Interceptor on all intercepted methods, just insert "GuardNullInte
 
 }
 ```
-If you want to use this Interceptor on just some methods, just insert "GuardNullInterceptor" in the Interceptors array of the methods you want inside your copconfig.json file, like so:
+If you want to use this Interceptor on just some methods, inside the copconfig.json file insert "GuardNullInterceptor" in the Interceptors array of those methods, like so:
 ```
 {
     "Types": [
@@ -48,7 +48,7 @@ If you want to use this Interceptor on just some methods, just insert "GuardNull
           "GenericArgumentTypes": [ ]
         }
     ],
-    "GlobalInterceptors": [""],
+    "GlobalInterceptors": [],
     "Key":"Your product key or leave empty for free product mode"
 
 }
