@@ -27,3 +27,27 @@ To place this Interceptor on all intercepted methods, just insert "GuardNullInte
 
 }
 ```
+If you want to use this Interceptor on just some methods, just insert "GuardNullInterceptor" in the Interceptors array of the methods you want on your copconfig.json file, like so:
+```
+{
+    "Types": [
+        {
+            "TypeName": "ConsoleApplication1.FooClass, ConsoleApplication1",
+            "Methods": [
+                {
+                    "MethodSignature": "FooMethod1(System.Object, System.String)",
+                    "Interceptors": ["GuardNullInterceptor" ]
+                },
+                {
+                    "MethodSignature": "FooMethod2(System.String)",
+                    "Interceptors": [ ]
+                }
+            ],
+          "GenericArgumentTypes": [ ]
+        }
+    ],
+    "GlobalInterceptors": [""],
+    "Key":"Your product key or leave empty for free product mode"
+
+}
+```
